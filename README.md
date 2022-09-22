@@ -14,3 +14,8 @@ For unsupervised learning, the idea is:
   - Furthermore, based on the features detected in the above, those could be some input for the zero/few shots to try to improve the performance of supervised learning.
 
 For supervised learning, it focuses on comparing the performance results between tradional text classification and BERT-based text classification to see the better one to predict the text diffculty. On top of this, zero / few shot will be considered to be applied to improve the performance of prediction.
+
+The following 3 jupyter notebooks are copied from the repo: nlptown/nlp-notebooks as reference, and we will make the adjustment to meet with the project requirements in the next:
+  - 03_Text classification with BERT in PyTorch.ipynb
+  - 04_Traditional text classification with Scikit-learn.ipynb
+  - 05_Zero-Shot Text Classification.ipynb
