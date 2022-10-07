@@ -7,3 +7,13 @@ tmp/pytorch_model - 1-.bin
 tmp/pytorch_model_uncase.bin
 tmp/test_error2022-09-26_1.csv
 tmp/test_error2022-09-27_1.csv
+tmp/error_data_20221006.csv
+tmp/pytorch_model_r.bin
+tmp/submission.csv
+tmp/test_error2022-09-29.csv
+tmp/test_error2022-10-05.csv
+tmp/test_error2022-10-07.csv
+tmp/test_error_distillbert_2022-09-29.csv
+tmp/test_error_distillbert_2022-10-06.csv
+tmp/submission.csv
+tmp/submission.csv
