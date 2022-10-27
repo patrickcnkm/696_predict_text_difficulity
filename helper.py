@@ -259,7 +259,7 @@ def data_evaluation(texts,labels,model_name,params,trained=True,OUTPUT_DIR = OUT
                                                                  output_hidden_states = False)
     else:
         # Using pretrained model without training
-        model=DistilBertForSequenceClassification.from_pretrained(BERT_MODEL,num_labels = len(target_names),
+        model=DistilBertForSequenceClassification.from_pretrained(model_name,num_labels = len(target_names),
                                                                  output_attentions = False,
                                                                  output_hidden_states = False)        
     model.to(device)
@@ -288,6 +288,7 @@ def duple_labels(data):
     return diff_labels
 
 # Elbow criterion - Determine optimal numbers of clusters by elbow rule.
+import matplotlib.pyplot as plt
 def elbow_plot(data, maxK=15, seed_centroids=None):
     """
         parameters:
