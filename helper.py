@@ -289,6 +289,7 @@ def duple_labels(data):
 
 # Elbow criterion - Determine optimal numbers of clusters by elbow rule.
 import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
 def elbow_plot(data, maxK=15, seed_centroids=None):
     """
         parameters:
