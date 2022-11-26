@@ -20,3 +20,4 @@ tmp/submission.csv
 tmp/embeddings.csv
 tmp/pytorch_model - best.bin
 tmp/pytorch_model_new_tokens_half_data.bin
+*.bin
